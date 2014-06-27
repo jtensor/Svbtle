@@ -1,8 +1,14 @@
 nav{
 	float:left;
-	width:9%;
-	background: blue;
+	width:10%;
+    height: 600px;
+	background: #ffffff;
     border: .1em solid #F0F8FF;
+    box-sizing:border-box;
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border-right: .05em solid black;
 }
 ul {
     float: right;
@@ -10,75 +16,94 @@ ul {
     /*margin-right:25px;*/
     padding-right:10px;
 }
-/*
+
 a {
-    float: left;
+   
     width: 6em;
     text-decoration: none;
-    color: white;
-    background-color: purple;
+    color: #B6B6B4;
     padding: 0.2em 0.6em;
-    border-right: 1px solid white;
+    border:2px;
 }
-
-a:hover {
-    background-color: fuchsia;
-}
-
 li {
-    
-}*/
+    padding: 5px 5px 5px 5px;
+}
+.circle{
+    background:black;
+    width:15px;
+    height:30px;
+    border-radius:50%;
+    float: right;
+    margin-right: 33%;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 5px black;
+}
 .container{
     float: right;
-    background-color: #FFEBCD;
+    background-color: #ffffff;
     width:90%;
+    height: 1000px;
+    border-left: .1em solid black;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
     border-left: .1em solid black;
 
 }
 main{
-	background: #C3FDB8;
+	background: #ffffff;
 	width:60%;
+    height: 1000px;
 	float: left;
-    border-right: .1em solid black;
+
+    box-sizing:border-box;
 
 }
 aside{
     float:right;
-    width:37%;
-    background:#D1D0CE;
+    width:40%;
+    height: 1000px;
+    background:#ffffff;
     padding:1em;
     overflow: hidden;
+    border-left: .1em solid black;
+    box-sizing:border-box;
 }
 footer{
     clear:both;
-    background:#C6DEFF;
-    height:10em;
+    background:#ffffff;
+    height:5em;
     width: 100%;
     border-top: .1em solid black;
+    box-sizing:border-box;
+    z-index: 1;
+    font-family: 'Lato', sans-serif;
+
 }
 .container2{
-
-    background-color: #FFEBCD;
-    width:90%;
-    
+    background-color: #ffffff;
+    width:90%; 
 }
-
-
-/*
-.flogo{
-    width: 10%;
-    background-color: red;
-}
-.flogo2{
-    width: 88%;
-    background-color: black;
-    float: right;
-}
-
-/*
-.ftable{
+.logo{
+    width: 20%;
     float: left;
 }
+.motto{
+    width: 80%;
+    float: right;
+}
 .ftable2{
-    clear:both;
-}*/
+    clear: both;
+    background-color: #ffffff;
+    width: 100%;
+}
+.email{
+    float: right;
+    width: 20%;
+    background-color:#FFffff;
+}
+.twitter{
+    width: 80%;
+    background-color: #ffffff;
+    display: inline-block;
+}
